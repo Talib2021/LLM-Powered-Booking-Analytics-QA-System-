@@ -35,9 +35,9 @@ pip install -r requirements.txt
 
 ### 4. Prepare the Data & FAISS Index
 - Ensure `hotel_bookings.csv` is in the project directory.
-- If the FAISS index is not available, run:
-  ```bash
-  python generate_faiss_index.py
+- If the FAISS index is not available, then,
+- create you own vector database using the code provided in the jupyter notebook.
+  
   ```
 
 ### 5. Run the API
